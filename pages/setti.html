@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeikkiBurger - Setti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-item-id="setti">
+    <div class="bg-shape bg-shape-one"></div>
+    <div class="bg-shape bg-shape-two"></div>
+
+    <header class="topbar">
+      <div>
+        <p class="kicker">Leikkikeittio</p>
+        <h1 id="item-name">Setti</h1>
+      </div>
+      <div class="top-actions">
+        <div class="total-pill">Kori: <span id="header-count">0 kpl</span> - <span id="header-total">0,00 €</span></div>
+        <a class="ghost-link" href="../index.html">Menu</a>
+        <a class="primary-link" href="../cart.html">Kori</a>
+      </div>
+    </header>
+
+    <main class="layout single-col">
+      <section class="panel product-layout">
+        <div class="product-hero">
+          <img id="item-image" class="item-image" src="" alt="" />
+          <p id="item-description"></p>
+          <p class="product-price" id="item-price"></p>
+        </div>
+
+        <form id="customize-form">
+          <fieldset class="options-group">
+            <legend>Taytteet</legend>
+            <label><input type="checkbox" name="juusto" /> Juusto</label>
+            <label><input type="checkbox" name="sipuli" /> Sipuli</label>
+            <label><input type="checkbox" name="kastike" /> Kastike</label>
+            <label><input type="checkbox" name="tomaatti" /> Tomaatti</label>
+            <label><input type="checkbox" name="salaatti" /> Salaatti</label>
+          </fieldset>
+
+          <label class="quantity-label" for="qty">Maara</label>
+          <input id="qty" name="qty" type="number" min="1" max="20" value="1" required />
+
+          <menu>
+            <a class="ghost-link" href="../index.html">Peruuta</a>
+            <button type="submit" class="primary-btn">Lisaa koriin</button>
+          </menu>
+        </form>
+
+        <p id="status-message" class="status-message"></p>
+      </section>
+
+      <section class="panel">
+        <h2>Kaikki tuotteet kuvina</h2>
+        <p class="panel-subtitle">Voit hypata suoraan toiseen tuotteeseen.</p>
+        <div id="all-product-images" class="product-gallery"></div>
+      </section>
+    </main>
+
+    <script src="../shared.js"></script>
+    <script src="../product.js"></script>
+  </body>
+</html>

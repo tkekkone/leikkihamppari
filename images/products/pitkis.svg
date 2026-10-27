@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pitkis</title>
+  <desc id="desc">Pitka hampurilainen tarjouskuvalla.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff1d2" />
+      <stop offset="100%" stop-color="#ffd9ad" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" />
+  <ellipse cx="320" cy="344" rx="255" ry="24" fill="#cfab82" opacity="0.45" />
+  <rect x="92" y="272" width="456" height="30" rx="15" fill="#f4cd74" />
+  <rect x="108" y="246" width="424" height="22" rx="11" fill="#6a3d2a" />
+  <rect x="102" y="231" width="436" height="12" rx="6" fill="#4ea453" />
+  <rect x="112" y="218" width="416" height="10" rx="5" fill="#e6453b" />
+  <path d="M86 204c0-35 50-64 234-64s234 29 234 64v14H86z" fill="#f1bc62" />
+  <g transform="translate(438 66)">
+    <circle cx="70" cy="70" r="64" fill="#ef3e35" />
+    <text x="70" y="64" text-anchor="middle" font-size="28" font-family="Nunito, sans-serif" font-weight="800" fill="#fff">-25%</text>
+    <text x="70" y="92" text-anchor="middle" font-size="16" font-family="Nunito, sans-serif" font-weight="700" fill="#fff">PITKIS</text>
+  </g>
+</svg>

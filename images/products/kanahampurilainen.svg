@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Kanahampurilainen</title>
+  <desc id="desc">Rapea kanaburgeri.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff4e2" />
+      <stop offset="100%" stop-color="#ffe4bf" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" />
+  <ellipse cx="320" cy="350" rx="175" ry="22" fill="#d5b08a" opacity="0.45" />
+  <rect x="196" y="282" width="248" height="26" rx="13" fill="#f3cb73" />
+  <rect x="205" y="252" width="230" height="26" rx="13" fill="#d8932f" />
+  <rect x="200" y="236" width="240" height="12" rx="6" fill="#4ea453" />
+  <path d="M188 206c0-42 58-78 132-78s132 36 132 78v16H188z" fill="#f2bf63" />
+  <circle cx="254" cy="167" r="4" fill="#fff2ca" />
+  <circle cx="318" cy="152" r="4" fill="#fff2ca" />
+  <circle cx="386" cy="170" r="4" fill="#fff2ca" />
+</svg>

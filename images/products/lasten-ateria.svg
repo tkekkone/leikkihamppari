@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lasten ateria</title>
+  <desc id="desc">Pieni burgeri, mini-ranut ja mehu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff3df" />
+      <stop offset="100%" stop-color="#ffd9cc" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" />
+  <circle cx="498" cy="118" r="48" fill="#ffd365" />
+  <rect x="150" y="286" width="170" height="24" rx="12" fill="#f4cc74" />
+  <rect x="162" y="263" width="146" height="18" rx="9" fill="#6a3d2a" />
+  <rect x="162" y="250" width="146" height="10" rx="5" fill="#4ea453" />
+  <path d="M145 234c0-30 38-56 90-56s90 26 90 56v14H145z" fill="#f3bf65" />
+  <rect x="350" y="212" width="90" height="112" rx="11" fill="#f0b951" />
+  <path d="M362 202h14v64h-14z" fill="#f8d47b" />
+  <path d="M386 198h14v68h-14z" fill="#f8d47b" />
+  <path d="M410 205h14v61h-14z" fill="#f8d47b" />
+  <rect x="470" y="210" width="70" height="120" rx="14" fill="#ff8d63" />
+  <circle cx="505" cy="248" r="18" fill="#ffcf91" />
+  <ellipse cx="320" cy="352" rx="220" ry="18" fill="#d5b290" opacity="0.45" />
+</svg>

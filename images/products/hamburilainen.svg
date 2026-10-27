@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hampurilainen</title>
+  <desc id="desc">Klassinen hampurilainen vaalealla taustalla.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0d8" />
+      <stop offset="100%" stop-color="#ffe0bf" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" />
+  <ellipse cx="320" cy="350" rx="170" ry="22" fill="#d9b996" opacity="0.45" />
+  <rect x="195" y="280" width="250" height="28" rx="14" fill="#f7d47c" />
+  <rect x="205" y="250" width="230" height="24" rx="12" fill="#6a3d2a" />
+  <rect x="200" y="232" width="240" height="16" rx="8" fill="#4ea453" />
+  <rect x="210" y="218" width="220" height="12" rx="6" fill="#e6453b" />
+  <path d="M190 190c0-46 62-84 130-84s130 38 130 84v18H190z" fill="#f5c067" />
+  <circle cx="260" cy="155" r="4" fill="#fff7dd" />
+  <circle cx="320" cy="142" r="4" fill="#fff7dd" />
+  <circle cx="380" cy="160" r="4" fill="#fff7dd" />
+</svg>

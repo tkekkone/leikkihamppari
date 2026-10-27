@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeikkiBurger - Ostoskori</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-one"></div>
+    <div class="bg-shape bg-shape-two"></div>
+
+    <header class="topbar">
+      <div>
+        <p class="kicker">Leikkikeittio</p>
+        <h1>Ostoskori</h1>
+      </div>
+      <div class="top-actions">
+        <div class="total-pill">Kori: <span id="header-count">0 kpl</span> - <span id="header-total">0,00 €</span></div>
+        <a class="ghost-link" href="index.html">Takaisin menuun</a>
+      </div>
+    </header>
+
+    <main class="layout single-col">
+      <section class="panel cart-panel-full">
+        <h2>Tilauksesi</h2>
+        <p class="panel-subtitle">Tarkista rivit ennen vahvistusta.</p>
+
+        <div id="cart-items" class="cart-items"></div>
+
+        <div class="cart-footer">
+          <div class="cart-total-row">
+            <span>Maksettavaa</span>
+            <strong id="cart-total">0,00 €</strong>
+          </div>
+          <button id="clear-cart" class="ghost-btn" type="button">Tyhjenna kori</button>
+          <button id="checkout" class="primary-btn" type="button">Vahvista tilaus</button>
+          <p id="checkout-message" class="status-message"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="shared.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
